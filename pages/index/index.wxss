@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+.div1 {
+  color: red;
+  /* wxss中的样式规则和css类似，可以直接用 */
+  
+}

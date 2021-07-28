@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<text>text</text>
+<!-- text标签相当于HTML中的span标签 -->
+<view class = "div1">div</view>
+<!-- view标签相当于HTML中的div标签 -->
+<!-- 当下初级阶段只需要掌握这两个标签即可。 -->
+<!-- 在标签中依然可以指定类 -->

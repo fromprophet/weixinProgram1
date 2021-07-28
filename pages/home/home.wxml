@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view>实例一</view>
+<view class="menu-1">
+  <image src="/images/images/img1.jpg"></image>
+  <image src="/images/images/img2.jpg"></image>
+  <image src="/images/images/img3.jpg"></image>
+  <image src="/images/images/img4.jpg"></image>
+</view>
+<view>实例二</view>
+<view class="menu-2">
+  <view class="item">
+    <image src="/images/images/img1.jpg"></image>
+    <text>电饭锅1</text>
+  </view>
+  <view class="item">
+    <image src="/images/images/img2.jpg"></image>
+    <text>电饭锅2</text>
+  </view>
+  <view class="item">
+    <image src="/images/images/img3.jpg"></image>
+    <text>电饭煲1</text>
+  </view>
+  <view class="item">
+    <image src="/images/images/img4.jpg"></image>
+    <text>电饭煲2</text>
+  </view>
+</view>
