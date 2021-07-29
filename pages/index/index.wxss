@@ -1,6 +1,21 @@
 /* pages/index/index.wxss */
-.div1 {
-  color: red;
-  /* wxss中的样式规则和css类似，可以直接用 */
+image {
+  width: 30rpx;
+  height: 30rpx;
+}
+view.recent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+view.kind-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+view.item {
+  width: 90%;
+  height: 50rpx;
+  background-color: #cccccc;
   
 }

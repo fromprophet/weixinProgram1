@@ -1,7 +1,28 @@
 <!--pages/index/index.wxml-->
-<text>text</text>
-<!-- text标签相当于HTML中的span标签 -->
-<view class = "div1">div</view>
-<!-- view标签相当于HTML中的div标签 -->
-<!-- 当下初级阶段只需要掌握这两个标签即可。 -->
-<!-- 在标签中依然可以指定类 -->
+<view class="clock">
+  <text>当前时间：2021年7月29日16:19:36</text>
+</view>
+<view class="recent">
+  <view>今天会议：</view>
+  <view>无会议</view>
+</view>
+<view class="index-bd">
+  <view class="kind-list">
+    <view class="item">
+      <text>会议添加</text>
+      <view><image src="/images/icon/widget.png"></image></view>
+    </view>
+    <view class="item">
+      <text>会议添加</text>
+      <view><image src="/images/icon/content.png"></image></view>
+    </view>
+    <view class="item">
+      <text>会议添加</text>
+      <view><image src="/images/icon/widget.png"></image></view>
+    </view>
+    <view class="item">
+      <text>会议添加</text>
+      <view><image src="/images/icon/widget.png"></image></view>
+    </view>
+  </view>
+</view>

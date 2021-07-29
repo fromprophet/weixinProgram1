@@ -1,5 +1,5 @@
 <!--pages/home/home.wxml-->
-<view>实例一</view>
+<!-- <view>实例一</view>
 <view class="menu-1">
   <image src="/images/images/img1.jpg"></image>
   <image src="/images/images/img2.jpg"></image>
@@ -24,4 +24,27 @@
     <image src="/images/images/img4.jpg"></image>
     <text>电饭煲2</text>
   </view>
+</view> -->
+
+<view class="userDetail">
+  <view class="userId">
+    <text>user</text>
+    <view class="change">修改个人信息</view>
+  </view>
+  <view class="userNum">
+    <view class="Numitems">
+      <image src="/images/icon/pause.png"></image>
+      <text>待办会议</text>
+    </view>
+    <view class="Numitems">
+      <image src="/images/icon/play.png"></image>
+      <text>已办会议</text>
+    </view>
+    <view class="Numitems">
+      <image src="/images/icon/storage.png"></image>
+      <text>全部会议</text>
+    </view>
+  </view>
 </view>
+
+<view class="space"></view>
